@@ -75,6 +75,7 @@ export default appSchema({
         { name: 'motivo_cita', type: 'string', isOptional: true },
         // Campo para indicar Si requiere ayuno u otra preparación especial.
         { name: 'is_requiere_preparacion', type: 'boolean' },
+        { name: 'notas_adicionales', type: 'string', isOptional: true },
       ]
     }),
     tableSchema({
